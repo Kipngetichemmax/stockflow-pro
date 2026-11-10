@@ -1,6 +1,28 @@
+# Dependencies
 node_modules/
-dist/
-*.db
-*.db-*
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Databases and local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and operating systems
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
